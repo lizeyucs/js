@@ -10,7 +10,7 @@
 		provinceStr+='<option  value='+province[i].item_code+'>'+province[i].item_name+'</option>';
 	}
 	provinceNode.innerHTML=provinceStr;
-	//获取城市的数组
+	
     //城市的获取
     var cityArr=[],j=0;
     for(var i=0;i<city.length;i++){
